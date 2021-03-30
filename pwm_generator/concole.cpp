@@ -9,7 +9,7 @@ uint8_t buf[MAX_DATA_LENGTH];
 void console_sort(uint8_t *buf)
 {
   const char * const divider = " ";
-  char *dupstr = strdup(buf);
+  char *dupstr = buf;
   char *CMD = NULL;
   char *Ch_str = NULL;
 
@@ -24,7 +24,6 @@ void console_sort(uint8_t *buf)
    servo_set(channel,pwm);
   }
 
-//  free(dupstr);
 }
 
 void console_parser(uint8_t data)
