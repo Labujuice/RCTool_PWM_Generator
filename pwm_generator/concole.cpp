@@ -23,11 +23,8 @@ void console_sort(uint8_t *buf)
 
    servo_set(channel,pwm);
   }
-    
-  else
-    return;
 
-  free(dupstr);
+//  free(dupstr);
 }
 
 void console_parser(uint8_t data)
