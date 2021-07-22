@@ -10,4 +10,4 @@ Send `CH ? width\n` to serial 1
 - `\n` carriage return is necessary for indicator
 
 # Example 
-Send `CH0 1500\n` to serial 1 @ 115200:8:n:1
+Send `CH 0 1500\n` to serial 1 @ 115200:8:n:1
